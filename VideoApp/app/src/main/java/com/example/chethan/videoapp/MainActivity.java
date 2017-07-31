@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         //create a videoview
         VideoView videoView = (VideoView) findViewById(R.id.videoView);
         //det video path
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.introvideo);
+        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.myvideo);
         //add media controls
         MediaController mediaController= new MediaController(this);
         mediaController.setAnchorView(videoView);
